@@ -1,0 +1,22 @@
+{
+  "name": "Front-end-Miami",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Sergei Romankov",
+  "scripts": {
+    "start": "browser-sync start --server --files \"src\" --open \"external\" --no-notify --no-ghost-mode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romserg/Front-end-Miami.git"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Romserg/Front-end-Miami/issues"
+  },
+  "homepage": "https://github.com/Romserg/Front-end-Miami#readme"
+}
