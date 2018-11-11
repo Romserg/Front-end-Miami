@@ -260,11 +260,15 @@ a, a:hover, button, button:hover, .anime {
 
 body {
     background-color: #FFFFFF;
-    font-family: Arial, "Times New Roman", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.27vmax;
     line-height: 1.9vmax;
     color: #323232;
 
+}
+
+.container {
+    width: 100%;
 }
 
 .wrap {
@@ -276,11 +280,8 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    position: relative;
+    background: url("../images/headerBg.jpg") center no-repeat;
     background-size: cover;
-    background-repeat:  no-repeat;
-    background-position: center;
-    background-image: url("../images/headerBg.jpg");
     padding-top: 7vh;
     padding-bottom: 8vh;
     color: #FFFFFF;
@@ -331,6 +332,7 @@ nav a {
 
 #text_about ul li {
     margin-bottom: 1.8vh;
+    list-style: none;
 }
 
 .blue {
@@ -384,4 +386,63 @@ nav a {
 #gallery {
     background-color: #EEEEEE;
     padding: 0 0 14.37vh;
+    width: 100%;
+}
+
+.box_img_gallery {
+    height: 20.55vmax;
+    overflow: hidden;
+}
+
+.gallery_line:nth-of-type(1) .box_img_gallery:nth-child(1){
+    width: 49vw;
+    margin-right: 1.58vw;
+}
+
+.gallery_line:nth-of-type(1) .box_img_gallery:nth-child(2){
+    width: 25.45vw;
+}
+
+.gallery_line:nth-of-type(3) .box_img_gallery:nth-child(1){
+    width: 36.36vw;
+    margin-right: 1.58vw;
+}
+
+.gallery_line:nth-of-type(3) .box_img_gallery:nth-child(2){
+    width: 38.06vw;
+}
+
+.gallery_line:nth-of-type(5) .box_img_gallery:nth-child(1){
+    width: 23.71vw;
+    margin-right: 1.58vw;
+}
+
+.gallery_line:nth-of-type(5) .box_img_gallery:nth-child(2){
+    width: 53.86vw;
+}
+
+.box_img_gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery_name {
+    font-size: 1.26vw;
+    margin: 2.61vh 0 4.57vh;
+    font-weight: 700;
+}
+
+.blue_btn {
+    background-color: #00aaef;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.blue_btn:hover {
+    background-color: #0185ba;
+}
+
+.btn {
+    border: none;
+    padding: 1.58vw 4.98vw;
 }
