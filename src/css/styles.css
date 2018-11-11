@@ -26,7 +26,6 @@ time, mark, audio, video {
 a, a:hover, button, button:hover, .anime {
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
-    -ms-transition: all 200ms linear;
     -o-transition: all 200ms linear;
     transition: all 200ms linear;
     cursor: pointer;
@@ -346,4 +345,43 @@ nav a {
 
 #title_about {
     width: 30vw;
+}
+
+.title {
+    margin: 0 auto 9.15vh;
+    z-index: 5;
+    width: fit-content;
+    position: relative;
+    top: -2.61vh;
+    font-weight: 400;
+}
+
+.title h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.79vw;
+    color: #323232;
+    line-height: 2.84vw;
+    margin-bottom: 1.22vh;
+    letter-spacing: 0.1vw;
+}
+
+.dec_svg {
+    width: 2.58vw;
+    margin: 0 .79vw;
+}
+
+.dec_svg path {
+    fill: #00aaef;
+}
+
+.line {
+    background-color: #00aaef;
+    height: 0.26vh;
+    width: 100%;
+}
+
+#gallery {
+    background-color: #EEEEEE;
+    padding: 0 0 14.37vh;
 }
